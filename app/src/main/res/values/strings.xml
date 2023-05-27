@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="version">Версия: \u0020</string>
+
+
+    <string name="pizza">Pizza</string>
+    <string name="pcs">PCs</string>
+    <string name="burger">Burger</string>
+    <string name="idk">Я хз лол</string>
+
+    <string name="startQuiz">Начать</string>
+
+    <string name="chooseAnsv">Выебете ответ</string>
+    <string name="сhooseQuiz">Выберете опрос</string>
+    <string name="next">Далее</string>
+    <string name="ende">Завершить</string>
+    <string name="timesup">Время вышло!</string>
+
+    <string name="rezult">Ваш результат:</string>
+    <string name="Perfect">Идеально!</string>
+    <string name="damn">Чё как так то а? :(</string>
+    <string name="correctansv">Верные ответы: \u0020</string>
+    <string name="incorrectansv">Неверные ответы: \u0020</string>
+    <string name="playagain">Сыграть ещё</string>
+
+</resources>

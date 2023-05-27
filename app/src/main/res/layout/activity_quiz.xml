@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_list">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="@color/salmon">
+
+    <ImageView
+        android:id="@+id/idMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/main_menu_clicked_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_keyboard_backspace_24" />
+
+    <TextView
+        android:id="@+id/selectedTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/font"
+        android:text="SelectedTopic"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:countDown="true"
+            android:textSize="18sp"
+            android:fontFamily="@font/font"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/Qnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/start_button"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="1/10"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"/>
+    <TextView
+        android:id="@+id/Q"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/opros_vopros"
+        android:gravity="center"
+        android:minHeight="100dp"
+        android:text="Съешь ещё этих мягких французких булок, да выпей чаю"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/font"
+        />
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/opros_button"
+        android:text="Ответ1"
+        android:textColor="@color/red"
+        android:fontFamily="@font/font"
+        />
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/opros_button"
+        android:text="Ответ2"
+        android:textColor="@color/red"
+        android:fontFamily="@font/font"
+        />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/opros_button"
+        android:text="Ответ3"
+        android:textColor="@color/red"
+        android:fontFamily="@font/font"/>
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/opros_button"
+        android:text="Ответ4"
+        android:textColor="@color/red"
+        android:fontFamily="@font/font"
+        />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop ="70dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/start_button"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font"
+        />
+
+</LinearLayout>
